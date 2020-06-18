@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "yarn --cwd ./server start & yarn --cwd ./ui start",
-    "install": "yarn --cwd ./server install & yarn --cwd ./ui install",
+    "install": "yarn --cwd ./server install && yarn --cwd ./ui install",
     "test": "export CI=true; (yarn --cwd ./server test & yarn --cwd ./ui test)"
   }
 }
