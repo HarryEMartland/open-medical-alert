@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login should render with data 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col pt-3"
+      >
+        <form>
+          <div
+            class="form-group"
+          >
+            <label>
+              Name
+            </label>
+            <input
+              class="form-control"
+              disabled=""
+              type="text"
+              value="Jone Doe"
+            />
+          </div>
+          <div
+            class="form-group"
+          >
+            <label>
+              Address
+            </label>
+            <textarea
+              class="form-control"
+              disabled=""
+              type="text"
+            >
+              64 Zoo Lane, London
+            </textarea>
+          </div>
+          <div
+            class="form-group"
+          >
+            <label>
+              Postcode
+            </label>
+            <input
+              class="form-control"
+              disabled=""
+              type="text"
+              value="D45 6ER"
+            />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Login should render with empty data 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="row"
+    >
+      <div
+        class="col pt-3"
+      >
+        <form />
+      </div>
+    </div>
+  </div>
+</div>
+`;
