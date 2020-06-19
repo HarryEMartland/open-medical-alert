@@ -24,6 +24,11 @@ jobs:
         working-directory: ./server
       - run: yarn deploy
         working-directory: ./server
+        env:
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          CAPTCHA_SECRET_KEY: ${{ secrets.CAPTCHA_SECRET_KEY }}
+          PASSWORD: ${{ secrets.PASSWORD }}
   ui:
     name: UI
     runs-on: ubuntu-latest
