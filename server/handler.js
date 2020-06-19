@@ -3,22 +3,26 @@ const FormData = require('form-data');
 
 const DATA = require(process.env.DATA_FILE_LOCATION);
 
+const HEADERS = {
+    'Access-Control-Allow-Origin': process.env.CORS_HOST,
+    'Access-Control-Allow-Credentials': true,
+};
+
 const DATA_RESPONSE = {
     statusCode: 200,
-    headers: {
-        'Access-Control-Allow-Origin': process.env.CORS_HOST,
-        'Access-Control-Allow-Credentials': true,
-    },
+    headers: HEADERS,
     body: JSON.stringify(DATA),
 };
 
 const INVALID_PASSWORD_RESPONSE = {
     statusCode: 401,
+    headers: HEADERS,
     body: JSON.stringify({message: "Invalid password"})
 }
 
 const CAPTCHA_FAIL_RESPONSE = {
     statusCode: 403,
+    headers: HEADERS,
     body: JSON.stringify({message: "Invalid CAPTCHA"})
 }
 

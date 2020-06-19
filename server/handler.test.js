@@ -69,7 +69,11 @@ describe('handler', () => {
 
         expect(result).toEqual(expect.objectContaining({
             statusCode: 401,
-            body: JSON.stringify({message:"Invalid password"})
+            body: JSON.stringify({message:"Invalid password"}),
+            headers: {
+                "Access-Control-Allow-Credentials": true,
+                "Access-Control-Allow-Origin": "example.com"
+            }
         }))
     })
 
@@ -82,7 +86,11 @@ describe('handler', () => {
         const result = await handler.hello({body: JSON.stringify({password, captcha: invalidCaptcha})})
         expect(result).toEqual(expect.objectContaining({
             statusCode: 403,
-            body: JSON.stringify({message:"Invalid CAPTCHA"})
+            body: JSON.stringify({message:"Invalid CAPTCHA"}),
+            headers: {
+                "Access-Control-Allow-Credentials": true,
+                "Access-Control-Allow-Origin": "example.com"
+            }
         }))
     })
 
