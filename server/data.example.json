@@ -1,10 +1,10 @@
 {
-  "name": "Jone Doe",
+  "name": "John Doe",
   "address": "64 Zoo Lane, London",
   "postcode": "D45 6ER",
   "emergencyContacts":[
     {
-      "name": "Jone Doe",
+      "name": "Jane Doe",
       "postcode": "D45 6ER",
       "address": "64 Zoo Lane, London"
     }
