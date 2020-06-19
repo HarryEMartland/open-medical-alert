@@ -10,8 +10,8 @@ on:
     branches: [ master ]
 
 jobs:
-  build:
-    name: Test
+  server:
+    name: Server
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -19,5 +19,8 @@ jobs:
         with:
           node-version: '12.x'
       - run: yarn install
+        working-directory: ./server
       - run: yarn test
+        working-directory: ./server
       - run: yarn deploy
+        working-directory: ./server
