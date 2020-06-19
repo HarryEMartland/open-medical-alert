@@ -22,7 +22,7 @@ exports[`Login should render with data 1`] = `
               class="form-control"
               disabled=""
               type="text"
-              value="Jone Doe"
+              value="John Doe"
             />
           </div>
           <div
