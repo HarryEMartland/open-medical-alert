@@ -29,6 +29,7 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           CAPTCHA_SECRET_KEY: ${{ secrets.CAPTCHA_SECRET_KEY }}
           PASSWORD: ${{ secrets.PASSWORD }}
+          CORS_HOST: ${{ secrets.CORS_HOST }}
   ui:
     name: UI
     runs-on: ubuntu-latest
@@ -45,6 +46,7 @@ jobs:
         working-directory: ./ui
         env:
           PUBLIC_URL: ${{ secrets.PUBLIC_URL }}
+          REACT_APP_DATA_URL: ${{ secrets.REACT_APP_DATA_URL }}
           REACT_APP_CAPTCHA_SITE_KEY: ${{ secrets.REACT_APP_CAPTCHA_SITE_KEY }}
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
