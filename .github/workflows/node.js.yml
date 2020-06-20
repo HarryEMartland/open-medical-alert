@@ -30,6 +30,7 @@ jobs:
           CAPTCHA_SECRET_KEY: ${{ secrets.CAPTCHA_SECRET_KEY }}
           PASSWORD: ${{ secrets.PASSWORD }}
           CORS_HOST: ${{ secrets.CORS_HOST }}
+          DEPLOY_REGION: ${{ secrets.DEPLOY_REGION }}
   ui:
     name: UI
     runs-on: ubuntu-latest
