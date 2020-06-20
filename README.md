@@ -30,6 +30,7 @@ Clone this to a **private** repository so not to leak your personal data.
 |PASSWORD|changeme|
 |PUBLIC_URL|/open-medical-alert|
 |REACT_APP_DATA_URL|HTTP://localhost:3001/dev/hello|
+|DEPLOY_REGION|us-west-2|Which region to deploy the lambda to. Defaults to `us-west-2`|
 
 
 #### Security

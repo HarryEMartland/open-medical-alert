@@ -26,6 +26,7 @@ service: open-medical-alert
 provider:
   name: aws
   runtime: nodejs12.x
+  region: ${opt:deployRegion, 'us-west-2'}
   environment:
     DATA_FILE_LOCATION: ${opt:dataFileLocation, './data.example.json'}
     CORS_HOST: ${opt:corsHost, '*'}
