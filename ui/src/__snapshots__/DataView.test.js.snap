@@ -20,6 +20,7 @@ exports[`Login should render with data 1`] = `
               <a
                 class="close"
                 href="https://www.nhs.uk/conditions/type-2-diabetes/"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -36,6 +37,7 @@ exports[`Login should render with data 1`] = `
               <a
                 class="close"
                 href="https://www.nhs.uk/conditions/what-to-do-if-someone-has-a-seizure-fit/"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -52,6 +54,7 @@ exports[`Login should render with data 1`] = `
               <a
                 class="close"
                 href="https://www.nhs.uk/conditions/hearing-loss/"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
@@ -68,6 +71,7 @@ exports[`Login should render with data 1`] = `
               <a
                 class="close"
                 href="https://www.nhs.uk/conditions/alzheimers-disease/"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <span
