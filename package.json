@@ -4,5 +4,11 @@
     "install": "yarn --cwd ./server install && yarn --cwd ./ui install",
     "deploy": "yarn --cwd ./server deploy",
     "test": "export CI=true; yarn --cwd ./server test && yarn --cwd ./ui test"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5"
+  },
+  "hooks": {
+    "pre-push": "CI=true yarn build && yarn test"
   }
 }
