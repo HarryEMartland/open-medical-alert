@@ -8,7 +8,9 @@
   "devDependencies": {
     "husky": "^4.2.5"
   },
-  "hooks": {
-    "pre-push": "CI=true yarn build && yarn test"
+  "husky": {
+    "hooks": {
+      "pre-push": "CI=true yarn --cwd ./ui build && yarn test"
+    }
   }
 }
