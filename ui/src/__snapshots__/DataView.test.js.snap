@@ -12,45 +12,268 @@ exports[`Login should render with data 1`] = `
         class="col pt-3"
       >
         <form>
-          <div
-            class="form-group"
-          >
-            <label>
-              Name
-            </label>
-            <input
-              class="form-control"
-              disabled=""
-              type="text"
-              value="John Doe"
-            />
-          </div>
-          <div
-            class="form-group"
-          >
-            <label>
-              Address
-            </label>
-            <textarea
-              class="form-control"
-              disabled=""
-              type="text"
+          <div>
+            <div
+              class="alert alert-danger"
             >
-              64 Zoo Lane, London
-            </textarea>
+              I have diabetes (Type 2)
+              <a
+                class="close"
+                href="https://www.nhs.uk/conditions/type-2-diabetes/"
+                target="_blank"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ⓘ
+                </span>
+              </a>
+            </div>
+            <div
+              class="alert alert-danger"
+            >
+              I have seizures
+              <a
+                class="close"
+                href="https://www.nhs.uk/conditions/what-to-do-if-someone-has-a-seizure-fit/"
+                target="_blank"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ⓘ
+                </span>
+              </a>
+            </div>
+            <div
+              class="alert alert-danger"
+            >
+              I have hearing loss
+              <a
+                class="close"
+                href="https://www.nhs.uk/conditions/hearing-loss/"
+                target="_blank"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ⓘ
+                </span>
+              </a>
+            </div>
+            <div
+              class="alert alert-danger"
+            >
+              I have Alzheimer's
+              <a
+                class="close"
+                href="https://www.nhs.uk/conditions/alzheimers-disease/"
+                target="_blank"
+              >
+                <span
+                  aria-hidden="true"
+                >
+                  ⓘ
+                </span>
+              </a>
+            </div>
           </div>
-          <div
-            class="form-group"
-          >
-            <label>
-              Postcode
-            </label>
-            <input
-              class="form-control"
-              disabled=""
-              type="text"
-              value="D45 6ER"
-            />
+          <div>
+            <div
+              class="form-group"
+            >
+              <label>
+                Name
+              </label>
+              <input
+                class="form-control"
+                disabled=""
+                type="text"
+                value="John Doe"
+              />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label>
+                Address
+              </label>
+              <textarea
+                class="form-control"
+                disabled=""
+              >
+                64 Zoo Lane, London
+              </textarea>
+            </div>
+            <div
+              class="form-group"
+            >
+              <label>
+                Postcode
+              </label>
+              <input
+                class="form-control"
+                disabled=""
+                type="text"
+                value="D45 6ER"
+              />
+            </div>
+          </div>
+          <div>
+            <h3>
+              Emergency Contacts
+            </h3>
+            <div
+              class="row pt-2"
+            >
+              <div
+                class="col-6 pb-3"
+              >
+                <div
+                  class="col card pt-3 pb-2"
+                >
+                  <div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Name
+                      </label>
+                      <input
+                        class="form-control"
+                        disabled=""
+                        type="text"
+                        value="Jane Doe"
+                      />
+                    </div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Address
+                      </label>
+                      <textarea
+                        class="form-control"
+                        disabled=""
+                      >
+                        64 Zoo Lane, London
+                      </textarea>
+                    </div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Postcode
+                      </label>
+                      <input
+                        class="form-control"
+                        disabled=""
+                        type="text"
+                        value="D45 6ER"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-6 pb-3"
+              >
+                <div
+                  class="col card pt-3 pb-2"
+                >
+                  <div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Name
+                      </label>
+                      <input
+                        class="form-control"
+                        disabled=""
+                        type="text"
+                        value="Jane Doe"
+                      />
+                    </div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Address
+                      </label>
+                      <textarea
+                        class="form-control"
+                        disabled=""
+                      >
+                        64 Zoo Lane, London
+                      </textarea>
+                    </div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Postcode
+                      </label>
+                      <input
+                        class="form-control"
+                        disabled=""
+                        type="text"
+                        value="D45 6ER"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="col-6 pb-3"
+              >
+                <div
+                  class="col card pt-3 pb-2"
+                >
+                  <div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Name
+                      </label>
+                      <input
+                        class="form-control"
+                        disabled=""
+                        type="text"
+                        value="Jane Doe"
+                      />
+                    </div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Address
+                      </label>
+                      <textarea
+                        class="form-control"
+                        disabled=""
+                      >
+                        64 Zoo Lane, London
+                      </textarea>
+                    </div>
+                    <div
+                      class="form-group"
+                    >
+                      <label>
+                        Postcode
+                      </label>
+                      <input
+                        class="form-control"
+                        disabled=""
+                        type="text"
+                        value="D45 6ER"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </form>
       </div>
@@ -70,7 +293,10 @@ exports[`Login should render with empty data 1`] = `
       <div
         class="col pt-3"
       >
-        <form />
+        <form>
+          <div />
+          <div />
+        </form>
       </div>
     </div>
   </div>

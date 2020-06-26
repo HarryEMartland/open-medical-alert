@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MedicalAlertsView should render with data 1`] = `
+<div>
+  <div>
+    <div
+      class="alert alert-danger"
+    >
+      I have diabetes (Type 2)
+      <a
+        class="close"
+        href="https://www.nhs.uk/conditions/type-2-diabetes/"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+        >
+          ⓘ
+        </span>
+      </a>
+    </div>
+    <div
+      class="alert alert-danger"
+    >
+      I have seizures
+      <a
+        class="close"
+        href="https://www.nhs.uk/conditions/what-to-do-if-someone-has-a-seizure-fit/"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+        >
+          ⓘ
+        </span>
+      </a>
+    </div>
+    <div
+      class="alert alert-danger"
+    >
+      I have hearing loss
+      <a
+        class="close"
+        href="https://www.nhs.uk/conditions/hearing-loss/"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+        >
+          ⓘ
+        </span>
+      </a>
+    </div>
+    <div
+      class="alert alert-danger"
+    >
+      I have Alzheimer's
+      <a
+        class="close"
+        href="https://www.nhs.uk/conditions/alzheimers-disease/"
+        target="_blank"
+      >
+        <span
+          aria-hidden="true"
+        >
+          ⓘ
+        </span>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`MedicalAlertsView should render with empty data 1`] = `
+<div>
+  <div />
+</div>
+`;

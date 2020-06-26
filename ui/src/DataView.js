@@ -1,22 +1,17 @@
 import React from 'react';
+import ContactsView from "./ContactsView";
+import ContactView from "./ContactView";
+import AlertView from "./AlertView";
+import MedicalAlertsView from "./MedicalAlertsView";
 
 function DataView({data}) {
     return <div className='container'>
         <div className='row'>
             <div className='col pt-3'>
                 <form>
-                    {data.name && <div className="form-group">
-                        <label >Name</label>
-                        <input type="text" className="form-control"  value={data.name} disabled/>
-                    </div>}
-                    {data.address && <div className="form-group">
-                        <label >Address</label>
-                        <textarea type="text" className="form-control"  value={data.address} disabled/>
-                    </div>}
-                    {data.postcode && <div className="form-group">
-                        <label >Postcode</label>
-                        <input type="text" className="form-control"  value={data.postcode} disabled/>
-                    </div>}
+                    <MedicalAlertsView data={data}/>
+                    <ContactView {...data}/>
+                    { data.emergencyContacts && <ContactsView emergencyContacts={data.emergencyContacts}/>}
                 </form>
             </div>
         </div>

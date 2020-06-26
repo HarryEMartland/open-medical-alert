@@ -2,7 +2,36 @@
   "name": "John Doe",
   "address": "64 Zoo Lane, London",
   "postcode": "D45 6ER",
+
+  "asthma": false,
+  "diabetes1": false,
+  "diabetes2": true,
+  "epilepsy": false,
+  "seizures": true,
+  "hypertension": false,
+  "strokeHistory": false,
+  "hearingLoss": true,
+  "alzheimers": true,
+
+  "medication": [
+    {
+      "name": "Paracetamol",
+      "dose": "500mg",
+      "schedule": "3 times a day"
+    }
+  ],
+
   "emergencyContacts":[
+    {
+      "name": "Jane Doe",
+      "postcode": "D45 6ER",
+      "address": "64 Zoo Lane, London"
+    },
+    {
+      "name": "Jane Doe",
+      "postcode": "D45 6ER",
+      "address": "64 Zoo Lane, London"
+    },
     {
       "name": "Jane Doe",
       "postcode": "D45 6ER",
