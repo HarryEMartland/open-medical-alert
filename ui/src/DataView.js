@@ -1,7 +1,6 @@
 import React from 'react';
 import ContactsView from "./ContactsView";
 import ContactView from "./ContactView";
-import AlertView from "./AlertView";
 import MedicalAlertsView from "./MedicalAlertsView";
 
 function DataView({data}) {
