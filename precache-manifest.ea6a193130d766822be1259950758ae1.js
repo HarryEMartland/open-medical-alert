@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8b42f058b32becdd785ee69a002568a",
+    "revision": "90aabcfe21f188debc10e2b874b05bc0",
     "url": "/open-medical-alert/index.html"
   },
   {
-    "revision": "4265ec8762947af04af0",
+    "revision": "4dcb5df9416eb4fde3b4",
     "url": "/open-medical-alert/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/open-medical-alert/static/js/2.1d628fbd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4265ec8762947af04af0",
-    "url": "/open-medical-alert/static/js/main.5b89eb89.chunk.js"
+    "revision": "4dcb5df9416eb4fde3b4",
+    "url": "/open-medical-alert/static/js/main.4041220d.chunk.js"
   },
   {
     "revision": "fcad42af10538884b845",

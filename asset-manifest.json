@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/open-medical-alert/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/open-medical-alert/static/js/main.5b89eb89.chunk.js",
-    "main.js.map": "/open-medical-alert/static/js/main.5b89eb89.chunk.js.map",
+    "main.js": "/open-medical-alert/static/js/main.4041220d.chunk.js",
+    "main.js.map": "/open-medical-alert/static/js/main.4041220d.chunk.js.map",
     "runtime-main.js": "/open-medical-alert/static/js/runtime-main.8476a3b6.js",
     "runtime-main.js.map": "/open-medical-alert/static/js/runtime-main.8476a3b6.js.map",
     "static/js/2.1d628fbd.chunk.js": "/open-medical-alert/static/js/2.1d628fbd.chunk.js",
     "static/js/2.1d628fbd.chunk.js.map": "/open-medical-alert/static/js/2.1d628fbd.chunk.js.map",
     "index.html": "/open-medical-alert/index.html",
-    "precache-manifest.a3bf764663beb54d18e3b26e5a6c1f75.js": "/open-medical-alert/precache-manifest.a3bf764663beb54d18e3b26e5a6c1f75.js",
+    "precache-manifest.ea6a193130d766822be1259950758ae1.js": "/open-medical-alert/precache-manifest.ea6a193130d766822be1259950758ae1.js",
     "service-worker.js": "/open-medical-alert/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/open-medical-alert/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.1d628fbd.chunk.js.LICENSE.txt": "/open-medical-alert/static/js/2.1d628fbd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.8476a3b6.js",
     "static/js/2.1d628fbd.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.5b89eb89.chunk.js"
+    "static/js/main.4041220d.chunk.js"
   ]
 }
