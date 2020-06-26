@@ -87,7 +87,6 @@ exports[`Login should render with data 1`] = `
               </label>
               <input
                 class="form-control"
-                disabled=""
                 type="text"
                 value="John Doe"
               />
@@ -100,7 +99,6 @@ exports[`Login should render with data 1`] = `
               </label>
               <textarea
                 class="form-control"
-                disabled=""
               >
                 64 Zoo Lane, London
               </textarea>
@@ -113,10 +111,48 @@ exports[`Login should render with data 1`] = `
               </label>
               <input
                 class="form-control"
-                disabled=""
                 type="text"
                 value="D45 6ER"
               />
+            </div>
+            <div
+              class="form-group"
+            >
+              <label>
+                Mobile
+              </label>
+              <div
+                class="input-group"
+              >
+                <div
+                  class="input-group-prepend"
+                >
+                  <div
+                    class="input-group-text"
+                  >
+                    <a
+                      href="tel:03580 59467"
+                    >
+                      <span
+                        aria-label="phone"
+                        role="img"
+                      >
+                        📞
+                      </span>
+                    </a>
+                  </div>
+                </div>
+                <input
+                  class="form-control"
+                  type="text"
+                  value="03580 59467"
+                />
+              </div>
+              <small
+                class="form-text text-muted"
+              >
+                Click the phone icon to call
+              </small>
             </div>
           </div>
           <div>
@@ -141,7 +177,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <input
                         class="form-control"
-                        disabled=""
                         type="text"
                         value="Jane Doe"
                       />
@@ -154,7 +189,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <textarea
                         class="form-control"
-                        disabled=""
                       >
                         64 Zoo Lane, London
                       </textarea>
@@ -167,7 +201,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <input
                         class="form-control"
-                        disabled=""
                         type="text"
                         value="D45 6ER"
                       />
@@ -190,7 +223,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <input
                         class="form-control"
-                        disabled=""
                         type="text"
                         value="Jane Doe"
                       />
@@ -203,7 +235,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <textarea
                         class="form-control"
-                        disabled=""
                       >
                         64 Zoo Lane, London
                       </textarea>
@@ -216,7 +247,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <input
                         class="form-control"
-                        disabled=""
                         type="text"
                         value="D45 6ER"
                       />
@@ -239,7 +269,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <input
                         class="form-control"
-                        disabled=""
                         type="text"
                         value="Jane Doe"
                       />
@@ -252,7 +281,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <textarea
                         class="form-control"
-                        disabled=""
                       >
                         64 Zoo Lane, London
                       </textarea>
@@ -265,7 +293,6 @@ exports[`Login should render with data 1`] = `
                       </label>
                       <input
                         class="form-control"
-                        disabled=""
                         type="text"
                         value="D45 6ER"
                       />

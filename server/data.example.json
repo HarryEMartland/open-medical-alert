@@ -2,6 +2,9 @@
   "name": "John Doe",
   "address": "64 Zoo Lane, London",
   "postcode": "D45 6ER",
+  "phoneNumbers": [
+    { "name" : "Mobile", "number" : "03580 59467" }
+  ],
 
   "asthma": false,
   "diabetes1": false,
