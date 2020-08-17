@@ -1,16 +1,18 @@
 import React from 'react';
 import Login from "./Login";
 
+
 class LoginController extends React.Component {
 
-    constructor() {
-        super();
+    constructor(props) {
+        super(props);
         this.state = {
             password: ""
         }
         this.setPassword = this.setPassword.bind(this);
         this.onLogin = this.onLogin.bind(this);
         this.captchaChange = this.captchaChange.bind(this);
+        this.recaptchaRef = React.createRef();
     }
 
     setPassword(event) {
@@ -18,9 +20,11 @@ class LoginController extends React.Component {
     }
 
     onLogin(event) {
-        if(this.valid()) {
+        if (this.valid()) {
             this.props.onLogin({password: this.state.password, captcha: this.state.captcha})
-        }else {
+            this.recaptchaRef.current.reset()
+            this.setState({captcha:''})
+        } else {
             console.log(this.state)
         }
         event.preventDefault();
@@ -30,14 +34,15 @@ class LoginController extends React.Component {
         this.setState({captcha})
     }
 
-    valid(){
+    valid() {
         return !!this.state.captcha & !!this.state.password;
     }
 
     render() {
         const {password} = this.state;
         const valid = this.valid();
-        return <Login password={password} setPassword={this.setPassword} {...this.props} onLogin={this.onLogin} captchaChange={this.captchaChange} valid={valid}/>
+        return <Login password={password} setPassword={this.setPassword} {...this.props} onLogin={this.onLogin}
+                      captchaChange={this.captchaChange} valid={valid} recaptchaRef={this.recaptchaRef}/>
     }
 }
 

@@ -47,7 +47,7 @@ describe('Login', () => {
         expect(container).toMatchSnapshot();
     })
 
-    it('should render error message', ()=>{
+    it('should render error message', () => {
         act(() => {
             render(<Login errorMessaGE='THIS IS AN ERROR MESSAGE'/>, container);
         })
