@@ -43,6 +43,10 @@ CORS headers are included on the data API response to stop requests being made f
 
 > Encrypting data at rest will be included in a future version of OMA.
 
+To deploy the serveless part of the application an AWS user is needed with sufficient permissions.
+Keeping to the principal of least privalage, a minimum policy is provided <./deployment-policy.json>.
+It is advised a new use is created with this role.
+
 #### Running Locally
 
 To run both the front end and server in local mode run `yarn start` in the root directory.
