@@ -43,9 +43,9 @@ CORS headers are included on the data API response to stop requests being made f
 
 > Encrypting data at rest will be included in a future version of OMA.
 
-To deploy the serveless part of the application an AWS user is needed with sufficient permissions.
-Keeping to the principal of least privalage, a minimum policy is provided <./deployment-policy.json>.
-It is advised a new use is created with this role.
+To deploy the serverless part of the application an AWS user is needed with sufficient permissions.
+Keeping to the principal of least privilege, a minimum policy is provided <./deployment-policy.json>.
+It is advised to create a new user with this role to be used for deploying.
 
 #### Running Locally
 
