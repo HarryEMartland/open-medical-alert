@@ -6,7 +6,8 @@
   "scripts": {
     "start": "serverless offline start --httpPort 3001 --password=changeme --captchaSecretKey=6LeIxAcTAAAAAGG-vFI1TnRWxMZNFuojJ4WifJWe",
     "test": "jest",
-    "deploy": "serverless deploy --password=$PASSWORD --captchaSecretKey=$CAPTCHA_SECRET_KEY --deployRegion=$DEPLOY_REGION"
+    "deploy": "serverless deploy --password=$PASSWORD --captchaSecretKey=$CAPTCHA_SECRET_KEY --deployRegion=$DEPLOY_REGION",
+    "remove": "serverless remove --password=$PASSWORD --captchaSecretKey=$CAPTCHA_SECRET_KEY --deployRegion=$DEPLOY_REGION"
   },
   "dependencies": {
     "debug": "^4.1.1",

@@ -3,10 +3,13 @@
     "start": "yarn --cwd ./server start & yarn --cwd ./ui start",
     "install": "yarn --cwd ./server install && yarn --cwd ./ui install",
     "deploy": "yarn --cwd ./server deploy",
-    "test": "export CI=true; yarn --cwd ./server test && yarn --cwd ./ui test"
+    "test": "export CI=true; yarn --cwd ./server test && yarn --cwd ./ui test",
+    "generate-user-deploy": "yo serverless-policy"
   },
   "devDependencies": {
-    "husky": "^4.2.5"
+    "generator-serverless-policy": "^3.1.0",
+    "husky": "^4.2.5",
+    "yo": "^3.1.1"
   },
   "husky": {
     "hooks": {
