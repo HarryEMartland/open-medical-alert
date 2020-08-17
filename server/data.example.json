@@ -16,6 +16,7 @@
   "hearingLoss": true,
   "alzheimers": true,
 
+  "noKnownMedication": false,
   "medication": [
     {
       "name": "Paracetamol",
@@ -26,7 +27,7 @@
 
   "emergencyContacts":[
     {
-      "name": "Jane Doe",
+      "name": "John Doe",
       "postcode": "D45 6ER",
       "address": "64 Zoo Lane, London"
     },
@@ -36,7 +37,7 @@
       "address": "64 Zoo Lane, London"
     },
     {
-      "name": "Jane Doe",
+      "name": "Bob Marley",
       "postcode": "D45 6ER",
       "address": "64 Zoo Lane, London"
     }

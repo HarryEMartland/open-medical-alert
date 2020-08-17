@@ -7,7 +7,7 @@ export default function PhoneNumberViews({name, number}) {
             <div className="input-group-prepend">
                 <div className="input-group-text"><a href={`tel:${number}`}><span role='img' aria-label='phone'>📞</span></a></div>
             </div>
-            <input type="text" value={number} readonly className="form-control" />
+            <input type="text" value={number} readOnly={true} className="form-control" />
         </div>
         <small className="form-text text-muted">
             Click the phone icon to call
